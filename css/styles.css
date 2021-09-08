@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*............
+1. Header Section
+..............*/
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 115vh;
+}
+
+.navbar {
+  width: 1550px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 30px;
+  float: left;
+  padding-top: 21px;
+}
+
+.menu {
+  width: 100px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 780px;
+}
+.srch {
+  font-family: "Times New Roman";
+  width: 210px;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 20px;
+  color: #ffff;
+  border-right: none;
+  font-size: 18px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 45px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+.srch:focus {
+  outline: none;
+}
+/*............
+2. Container or content section
+..............*/
+.content {
+  width: 1550px;
+  height: auto;
+  margin: auto;
+  color: #ffff;
+  position: relative;
+}
+
+.content p {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.content h1 {
+  font-family: "Times New Roman";
+  font-size: 65px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content h1 span {
+  color: #ff7200;
+  font-size: 80px;
+}
+
+.cn {
+  width: 170px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: #ff7200;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.cn a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.cn:hover {
+  background-color: #ffff;
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  );
+  position: absolute;
+  top: -10px;
+  left: 1000px;
+  border-radius: 15px;
+  padding: 45px;
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin-top: -20px;
+  padding: 8px;
+}
+
+.form input {
+  width: 245px;
+  height: 40px;
+  background-color: transparent;
+  border-bottom: 1px solid #ff7200;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffff;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 35px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #ffff;
+  font-family: Arial;
+}
+
+.btn2 {
+  width: 245px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 35px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btn2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn2:hover {
+  background: #ffffff;
+  color: #ff7200;
+}
+
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 25px;
+  margin-bottom: -20px;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #ff7200;
+}
+.form .link a:hover {
+  color: #fff;
+}
+
+.liw {
+  text-align: center;
+  margin-right: 25px;
+  margin-bottom: -10px;
+}
+
+.social-icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  padding-left: 12px;
+  transition: 0.3s ease;
+}
+.social-icon a:hover {
+  color: #ff7200;
+}
